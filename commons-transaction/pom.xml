@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.hua</groupId>
+		<artifactId>commons-entire</artifactId>
+		<version>0.0.1</version>
+	</parent>	
+	<artifactId>commons-transaction</artifactId>
+	<packaging>jar</packaging>
+	<name>commons-transaction</name>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		
+		<commons.version>0.0.1</commons.version>
+		<commons-transaction.version>1.2</commons-transaction.version>		
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.hua</groupId>
+			<artifactId>commons</artifactId>
+			<version>${commons.version}</version>
+		</dependency>
+	
+		<dependency>
+			<groupId>commons-transaction</groupId>
+			<artifactId>commons-transaction</artifactId>
+			<version>${commons-transaction.version}</version>
+		</dependency>		
+	</dependencies>
+
+</project>

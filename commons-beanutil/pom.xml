@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.hua</groupId>
+		<artifactId>commons-entire</artifactId>
+		<version>0.0.1</version>
+	</parent>	
+	<artifactId>commons-beanutil</artifactId>
+	<packaging>jar</packaging>
+	<name>commons-beanutil</name>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		
+		<commons.version>0.0.1</commons.version>
+		<commons-beanutils.version>1.9.3</commons-beanutils.version>
+		<commons-beanutils-core.version>1.8.3</commons-beanutils-core.version>		
+		<commons-beanutils-bean-collections.version>1.8.3</commons-beanutils-bean-collections.version>								
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.hua</groupId>
+			<artifactId>commons</artifactId>
+			<version>${commons.version}</version>
+		</dependency>
+
+		<dependency>
+		    <groupId>commons-beanutils</groupId>
+		    <artifactId>commons-beanutils</artifactId>
+		    <version>${commons-beanutils.version}</version>
+		</dependency>
+
+		<dependency>
+		    <groupId>commons-beanutils</groupId>
+		    <artifactId>commons-beanutils-core</artifactId>
+		    <version>${commons-beanutils-core.version}</version>
+		</dependency>
+
+		<dependency>
+		    <groupId>commons-beanutils</groupId>
+		    <artifactId>commons-beanutils-bean-collections</artifactId>
+		    <version>${commons-beanutils-bean-collections.version}</version>
+		</dependency>				
+	</dependencies>
+
+</project>

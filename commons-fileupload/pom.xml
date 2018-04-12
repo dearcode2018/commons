@@ -1,0 +1,42 @@
+<project xmlns="commons://maven.apache.org/POM/4.0.0" xmlns:xsi="commons://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="commons://maven.apache.org/POM/4.0.0 commons://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.hua</groupId>
+		<artifactId>commons-entire</artifactId>
+		<version>0.0.1</version>
+	</parent>	
+	<artifactId>commons-fileupload</artifactId>
+	<packaging>jar</packaging>
+	<name>commons-fileupload</name>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		
+		<commons.version>0.0.1</commons.version>
+		<commons-io.version>2.5</commons-io.version>				
+		<commons-fileupload.version>1.3.2</commons-fileupload.version>		
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.hua</groupId>
+			<artifactId>commons</artifactId>
+			<version>${commons.version}</version>
+		</dependency>
+
+		<dependency>
+		    <groupId>commons-fileupload</groupId>
+		    <artifactId>commons-fileupload</artifactId>
+		    <version>${commons-fileupload.version}</version>
+		</dependency>
+	
+		<dependency>
+		    <groupId>commons-io</groupId>
+		    <artifactId>commons-io</artifactId>
+		    <version>${commons-io.version}</version>
+		</dependency>	
+		
+	</dependencies>
+
+</project>
